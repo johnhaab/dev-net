@@ -7,7 +7,7 @@ const port = process.env.PORT || 8000;
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello Devs!");
 });
 
 app.listen(port, () => {
